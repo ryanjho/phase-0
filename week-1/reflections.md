@@ -1,3 +1,5 @@
+# Reflections
+
 # 1.1 Think About Time Reflection
 From my research, I enjoyed learning more about the Pomodoro technique that involves "Time Boxing" 25 minutes for a stretch of work, and 6 concrete steps. The video on the website was very useful in detailing each of the incremental steps involved and bringing the concept to life. Essentially, time boxing allows a piece of work or task to be broken down into certain chunks of time, with each chunk having a defined duration (in the case of Pomodoro, 25 minutes). Work must strictly stop at the end of each time box, with several minutes allocated at the start for recap, and at the end for review. Implementing the time boxing strategy during Phase 0 will enable me to allocate my time effectively to each task required and ensure that I can track my progress effectively. As I will still be balancing Phase 0 with my current work commitments, time boxing and using the Pomodoro strategy will allow me to stay focused during each time boxed segment and achieve more during each block of time.
 
