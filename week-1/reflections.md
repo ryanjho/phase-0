@@ -31,4 +31,43 @@ Here are the following commands:
 - help finding information about commands and printing it in the terminal
 
 # 1.4 Forking and Cloning Reflection
+A. Create new repository
 
+1. Navigate to your github.com profile page. In the top right navigation bar, click the "+" sign and select "New repository".
+
+2. Input a name for your repository in the box "Repository name", and make sure that the repository visibility is selected as "public".
+
+3. Add an "MIT License" to your repository
+
+4. Click "Create repository" and you would have just created a new repository!
+
+ 
+
+**B. Fork a new repository**
+
+1. Search for a repository on github.com that you want to fork (or create a copy)
+
+2. Click the "Fork" button at the top right of the repository page. This will make a copy of the repository and store it in your GitHub profile. Making changes to this copy created will not affect the original version of the repository that you had forked from
+
+ 
+
+**C. Clone a repository**
+
+1. Go to the repository page that you want to clone and navigate towards the "HTTPS Clone URL" box located on the right.
+
+2. Copy the link in "HTTPS Clone URL" box
+
+3. Launch Terminal on your computer and navigate to the directory that you want to clone the repository to
+
+4. Once in your desired directory, type the following in your command line: git clone URL_THAT_YOU_COPIED
+
+You should see some code being executed,
+
+5. After the command line prompts again, execute the ls command. You should see the folder with the same name as the repository that you had cloned from GitHub.
+ 
+
+Forking (or creating a copying) a repository allows you to have the freedom to experiment with changes without affecting the original project. Forking a repository creates an identical copy and eliminates the hassle of creating a new one, which might lead you to create a repository that might not be identical to the initial one.
+
+**Struggles**
+
+The major struggle that I faced was getting familiar with the process of creating a repo, forking a repo, and cloning a repo to my local directory. As using GitHub is completely new to me, it took a while to familiarise myself with the steps, but it gradually got better once I practiced a few times. After this exercise, I learned how to create a repo, fork a repo off GitHub and also clone a repo to my local directory. It also helped me to start learning some of the basic functions of GitHub, which will serve me well in my coding learning journey.
