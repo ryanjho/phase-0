@@ -1,7 +1,7 @@
 #2.3 Site Map Reflection
 
 ## Site-map Image
-![Site-map](week-2/imgs/site-map.png)
+![Site-map](/week-2/imgs/site-map.png)
 
 ## Reflections
 1. What are the 6 Phases of Web Design?
