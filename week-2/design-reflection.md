@@ -5,19 +5,19 @@
 
 ## Reflections
 1. What are the 6 Phases of Web Design?
-- The 6 Phases of Web Design are the following:
-  1. Information Gathering
-    - Gather information about business goals, considering Purpose, Goals, Target Audience and Content
-  2. Planning
-    - Developing a site-map which serves as a guide as to what content will be on the site
-  3. Design
-    - Considering target audience, and creating one or more prototype designs for the website
-  4. Development
-    - Incorporate graphical elements from the prototype to create the actual, functional site. 
-  5. Testing and Delivery
-    - Testing the functionality of website (e.g. forms, scripts) as well as last minute compatibility issues
-  6. Maintenance
-    - Providing consistent maintenance as the website continues to develop and evolve
+  - The 6 Phases of Web Design are the following:
+    1. Information Gathering
+      - Gather information about business goals, considering Purpose, Goals, Target Audience and Content
+    2. Planning
+      - Developing a site-map which serves as a guide as to what content will be on the site
+    3. Design
+      - Considering target audience, and creating one or more prototype designs for the website
+    4. Development
+      - Incorporate graphical elements from the prototype to create the actual, functional site. 
+    5. Testing and Delivery
+      - Testing the functionality of website (e.g. forms, scripts) as well as last minute compatibility issues
+    6. Maintenance
+      - Providing consistent maintenance as the website continues to develop and evolve
 
 2. What is your site's primary goal or purpose? What kind of content will your site feature?
   - My website's primary goal is to improve my employability as a junior web developer and establish a strong following to my blog. My main target audience are companies looking for someone with both business strategy and technology expertise, and people interested to learn both strategy and technology.
