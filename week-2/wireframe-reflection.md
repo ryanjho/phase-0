@@ -1,13 +1,13 @@
 #2.4 Wireframing Reflections
 
 ##Site wireframe
-![Site wireframe](week-2/imgs/wireframe-index.png)
+![Site wireframe](/week-2/imgs/wireframe-index.png)
 
 ##Blog Index wireframe
-![Blog Index wireframe](week-2/imgs/wireframe-blog-index.png)
+![Blog Index wireframe](/week-2/imgs/wireframe-blog-index.png)
 
 ##Blog Post Template wireframe
-![Blog Post Template wireframe](week-2/imgs/wireframe-blog-template.png)
+![Blog Post Template wireframe](/week-2/imgs/wireframe-blog-template.png)
 
 ##Reflections
 1. What is a wireframe?
