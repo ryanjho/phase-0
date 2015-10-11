@@ -1,13 +1,13 @@
 #2.4 Wireframing Reflections
 
 ##Site wireframe
-![Site wireframe](/ryanjho.github.io/imgs/wireframe-index.png)
+![Site wireframe](/imgs/wireframe-index.png)
 
 ##Blog Index wireframe
-![Blog Index wireframe](/ryanjho.github.io/imgs/wireframe-blog-index.png)
+![Blog Index wireframe](/imgs/wireframe-blog-index.png)
 
 ##Blog Post Template wireframe
-![Blog Post Template wireframe](/ryanjho.github.io/imgs/wireframe-blog-template.png)
+![Blog Post Template wireframe](/imgs/wireframe-blog-template.png)
 
 ##Reflections
 1. What is a wireframe?
