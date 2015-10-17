@@ -1,0 +1,83 @@
+html {
+	color: #000080;
+	background-color: #fff;
+}
+
+a {
+	color: #800080;
+}
+
+a:visited {
+	color: #ff0000;
+}
+
+.small-text {
+	font-size: 80%;
+}
+
+#header {
+	text-align: center;
+	
+}
+
+#header p {
+	margin: 5px;
+}
+
+#header h1 {
+	margin: 5px;
+}
+
+.Bigletter {
+	font-size: 1.5em;
+}
+
+.borderbottom {
+	border-bottom: 1px solid grey;
+}
+
+.text-center {
+	text-align: center;
+}
+
+img {
+	height: 1em;
+}
+
+.p-smallmargin {
+	margin: 5px;
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	width: 50%;
+}
+
+.padding-left {
+	padding-left: 3em;
+}
+
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+- It is important to ensure that the source path to the CSS file is correct in order to have the stylesheet linked correctly.
+- In addition, it is also important to ensure that the link to external dependencies is placed in the <head> section .
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+- We added classes and ids to appropriatee divs to help with the CSS styling and positioning. One example was adding the div class="borderbottom"
+to help add the four horizontal lines on the website.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+- We used the properties like color, font-size, border-bottom, margin, text-align, background-color and padding to help modify the different
+element styles.
+
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+- We modified some of the html tags to include classes and IDs. We used classes in situations where it applied to more than one type of HTML tag.
+We used IDs when it was unique to one specific HTML tag.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+- After comparison, we felt that our site had a better and more updated structure consistent with HTML5 best practices.
+The actual code base had hard-coded styling which was not ideal, and also had repeated styling elements, which is not aligned with HTML5 best practices.
+*/
