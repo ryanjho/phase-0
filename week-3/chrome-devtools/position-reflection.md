@@ -1,15 +1,15 @@
 #3.4 Chrome Dev Tools Reflections
 
 ##Images
-![alt text](./imgs/3.4-Release3-Exercise1)
-![alt text](./imgs/3.4-Release3-Exercise2)
-![alt text](./imgs/3.4-Release3-Exercise3)
-![alt text](./imgs/3.4-Release3-Exercise4)
-![alt text](./imgs/3.4-Release3-Exercise5)
-![alt text](./imgs/3.4-Release3-Exercise6)
-![alt text](./imgs/3.4-Release3-Exercise7)
-![alt text](./imgs/3.4-Release3-Exercise8)
-![alt text](./imgs/3.4-Release3-Exercise9)
+![3.4 Release 3-Exercise 1](/week-3/imgs/3.4-Release3-Exercise1)
+![3.4 Release 3-Exercise 2](/week-3/imgs/3.4-Release3-Exercise2)
+![3.4 Release 3-Exercise 3](/week-3/imgs/3.4-Release3-Exercise3)
+![3.4 Release 3-Exercise 4](/week-3/imgs/3.4-Release3-Exercise4)
+![3.4 Release 3-Exercise 5](/week-3/imgs/3.4-Release3-Exercise5)
+![3.4 Release 3-Exercise 6](/week-3/imgs/3.4-Release3-Exercise6)
+![3.4 Release 3-Exercise 7](/week-3/imgs/3.4-Release3-Exercise7)
+![3.4 Release 3-Exercise 8](/week-3/imgs/3.4-Release3-Exercise8)
+![3.4 Release 3-Exercise 9](/week-3/imgs/3.4-Release3-Exercise9)
 
 ##Reflections
 
