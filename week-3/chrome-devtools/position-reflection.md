@@ -1,15 +1,15 @@
 #3.4 Chrome Dev Tools Reflections
 
 ##Images
-![3.4 Release 3-Exercise 1](/week-3/imgs/3.4-Release3-Exercise1)
-![3.4 Release 3-Exercise 2](/week-3/imgs/3.4-Release3-Exercise2)
-![3.4 Release 3-Exercise 3](/week-3/imgs/3.4-Release3-Exercise3)
-![3.4 Release 3-Exercise 4](/week-3/imgs/3.4-Release3-Exercise4)
-![3.4 Release 3-Exercise 5](/week-3/imgs/3.4-Release3-Exercise5)
-![3.4 Release 3-Exercise 6](/week-3/imgs/3.4-Release3-Exercise6)
-![3.4 Release 3-Exercise 7](/week-3/imgs/3.4-Release3-Exercise7)
-![3.4 Release 3-Exercise 8](/week-3/imgs/3.4-Release3-Exercise8)
-![3.4 Release 3-Exercise 9](/week-3/imgs/3.4-Release3-Exercise9)
+![3.4 Release 3-Exercise 1](/week-3/imgs/3.4-Release3-Exercise1.png)
+![3.4 Release 3-Exercise 2](/week-3/imgs/3.4-Release3-Exercise2.png)
+![3.4 Release 3-Exercise 3](/week-3/imgs/3.4-Release3-Exercise3.png)
+![3.4 Release 3-Exercise 4](/week-3/imgs/3.4-Release3-Exercise4.png)
+![3.4 Release 3-Exercise 5](/week-3/imgs/3.4-Release3-Exercise5.png)
+![3.4 Release 3-Exercise 6](/week-3/imgs/3.4-Release3-Exercise6.png)
+![3.4 Release 3-Exercise 7](/week-3/imgs/3.4-Release3-Exercise7.png)
+![3.4 Release 3-Exercise 8](/week-3/imgs/3.4-Release3-Exercise8.png)
+![3.4 Release 3-Exercise 9](/week-3/imgs/3.4-Release3-Exercise9.png)
 
 ##Reflections
 
