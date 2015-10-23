@@ -20,6 +20,7 @@
   print "minutes in a decade: "
 	puts 60*24*365*10
 	```
+
 ## Release 5: Exercises
 ### Defining Variables
 [4.2.1 Defining Variables](https://github.com/ryanjho/phase-0/blob/master/week-4/4.2/defining-variables.rb)
