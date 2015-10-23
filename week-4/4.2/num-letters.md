@@ -39,6 +39,15 @@ new_string = old_string.upcase.reverse
 
 ### Local Variables and Basic Expressions
 [4.2.3 Basic Math](https://github.com/ryanjho/phase-0/blob/master/week-4/4.2/basic-math.rb)
+```
+num1 = 88
+num2 = 7
+sum = num1 + num2
+difference = num1 - num2
+quotient = num1.to_f / num2.to_f
+product = num1 * num2
+modulus = num1 % num2
+```
 
 ## Release 7: Reflect
 __How does Ruby handle addition, subtraction, multiplication, and division of numbers?__
