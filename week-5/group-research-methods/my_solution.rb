@@ -95,16 +95,25 @@ end
 # For the array method, I used the .to_s and .index methods to check if each string in the array contained the user entered letter.
 
 
-# Person 5
+# Person 5: Walter Kerr
 def my_array_splitting_method(source)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  a = source.partition { |x| x.is_a? Integer }
+  return a.to_a
 end
 
 def my_hash_splitting_method(source, age)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  young = source.select {|k,age| age <= 4}
+  old = source.select {|k,age| age >= 5} 
+  p young
+  p old
 end
 
 # Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
+# # First of all, a disclaimer that these methods do not check out with the rspecs but do produce the desired result.
+
+# # In the first challenge, I used a method parse out the integer and then the non-integers.
+# # The method asks if x was an integer. If the answer was true, it would print
+# # those values and partions that info out using the .partition method. 
+
+# # In the second, I used a method that iterated over each of the items in the hash. Then, any pair that had an age value of over 4 went into one basket, and any
+# # that had a value equal to 4 or less went in a different hash.
