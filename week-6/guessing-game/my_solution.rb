@@ -9,6 +9,13 @@
 # Input: An integer
 # Output: Return :high if the guess is larger than the answer, 
 # Steps:
+# 1. Define the constructor method to take in an argument, answer
+# 2. Define the guess method that takes in a guess number as an argument. Then use flow control to compare guess and answer:
+#    - If guess > answer, then return :high
+#    - If guess < answer, then return :low
+#    - If guess == answer, then return :correct
+# 3. Define the solved? method and return true if guess == answer, else return false
+
 
 
 # Initial Solution
