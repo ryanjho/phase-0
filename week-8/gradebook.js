@@ -22,81 +22,71 @@ var scores = [ [80, 70, 70, 100],
 
 // __________________________________________
 // Write your code below.
+// var gradebook = {};
+// for (var i = 0; i < students.length; i++) {
+//   gradebook[students[i]] = {};
+// };
+// // console.log(gradebook);
+// var counter = 0;
+// for (var key in gradebook) {
+//   gradebook[key]["testScores"] = scores[counter];
+//   counter+=1;
+// }
+// // console.log(gradebook);
 
-/*
-var gradebook = {};
+// gradebook["addScore"] = function(name, score) {
+//   gradebook[name].testScores.push(score);
+// }
+// console.log(gradebook);
 
-for (var i = 0; i < students.length; i++) {
-  gradebook[students[i]] = {};
-};
+// gradebook["getAverage"] = function(name) {
+//   return average(gradebook[name].testScores);
+// };
+// function average(array) {
+//   var sum = 0;
+//   for (var i = 0; i < array.length; i++) {
+//     sum += array[i];
+//   };
+//   return sum / array.length;
+// }
 
-var counter = 0;
-for (var key in gradebook) {
-  if (gradebook.hasOwnProperty(key)) {
-    gradebook[key]["testScores"] = scores[counter];
-    counter +=1;
-  };
-};
 
-gradebook["addScore"] = function(name, score) {
-  gradebook[name].testScores.push(score);
-};
-
-gradebook["getAverage"] = function(name) { 
-  return average(gradebook[name].testScores);
-};
-
-function average(array) {
-  average_counter = 0;
-  for (var i = 0; i < array.length; i++) {
-    average_counter += array[i];
-  };
-  return average_counter / array.length;
-};
-
-*/
 // __________________________________________
 // Refactored Solution
-
-
-
 var gradebook = {
-  addScore: function(name, score) { this[name].testScores.push(score)},
-  getAverage: function(name, score) { return average(this[name].testScores);}
+  addScore: function(name, score) {
+    this[name].testScores.push(score)
+  },
+  getAverage: function(name) {
+    return this[name].testScores.reduce(function(sum, next) {return sum + next;}) / this[name].testScores.length;
+  }
 };
 
 for (var i = 0; i < students.length; i++) {
-  gradebook[students[i]] = {};
+  gradebook[students[i]] = {testScores: scores[i]};
 };
+console.log(gradebook);
 
-var counter = 0;
-for (var key in gradebook) {
-  if (gradebook.hasOwnProperty(key)) {
-    gradebook[key]["testScores"] = scores[counter];
-    counter +=1;
-  };
-};
+// gradebook["getAverage"] = function(name) {
+//   return average(gradebook[name].testScores);
+// };
 
-function average(array) {array.reduce(function(a,b) {return a + b;})/array.length;};
-
-
+function average(array) {
+  return array.reduce( function(sum, next) { return sum + next; }) / array.length;
+}
+console.log(gradebook);
 
 
 // __________________________________________
 // Reflect
 /*
 What did you learn about adding functions to objects?
-- 
+- I learned how to use "this" to add the functions internally into objects
 How did you iterate over nested arrays in JavaScript?
-- 
+- We iterated over the nested arrays using a for loop to iterate over students array and then adding the respective array of scores to each student's testScores property.
 Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+- We incorporated the .reduce method in our "average" function to return the sum of all the array elements, without using a for loop and sum accumulator.
 */
-
-
-
-
-
-
 
 // __________________________________________
 // Test Code:  Do not alter code below this line.
