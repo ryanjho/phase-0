@@ -72,12 +72,12 @@ Steps:
 2) Iterate through the votes object to count the number of votes each student has for each officer position
 3) Input this data into the voteCount object
 4) Sort through voteCount object and pick only the top voted student for each officer position
-5) Store this information in the officers object
+5) Store top voted student for each officer position into the officers object's respective properties.
 */
 
 // __________________________________________
 // Initial Solution
-
+/*
 // Set voteCounts for every student for each position to be 0
 for (var key in votes) {
   voteCount.president[key] = 0;
@@ -147,13 +147,57 @@ treasurerArray.sort(function(a,b) {
   return b[1] - a[1];
 })
 officers.treasurer = treasurerArray[0][0];
+*/
 
 // __________________________________________
 // Refactored Solution
+function calculateVotes(obj) {
+  for (var studentName in obj) {
+    for (var office in obj[studentName]) {
+      if (voteCount[office][obj[studentName][office]] == undefined) {
+        voteCount[office][obj[studentName][office]] = 0;
+      } 
+      voteCount[office][obj[studentName][office]] ++;
+    }
+  }
+}
+
+calculateVotes(votes);
+
+console.log(voteCount);
+
+function assignOfficer(obj) {
+  for (var office in obj) {
+    for (var studentName in obj[office]) {
+      if (officers[office] == undefined) {
+        officers[office] = studentName;
+      }
+      if (obj[office][studentName] > obj[office][officers[office]]) {
+        officers[office] = studentName;
+      }
+    }
+  }
+}
+
+assignOfficer(voteCount);
 
 
+// function sortVotes(array) {
+//   for (var office in array) {
+//     for (var key in array[office]) {
+//       if (voteCount[office]) {}
+//     }
+//   }
+// }
 
-
+// var presidentArray = [];
+// for (var prop in voteCount.president) {
+//   presidentArray.push([prop, voteCount.president[prop]]);
+// }
+// presidentArray.sort(function(a,b) {
+//   return b[1] - a[1];
+// })
+// officers.president = presidentArray[0][0];
 
 
 // __________________________________________
@@ -165,9 +209,11 @@ What did you learn about iterating over nested objects in JavaScript?
 - I created the correct nested for loop structure fairly quickly, but was careless in the syntax, which caused me to spend quite some time with the debugging.
 
 Were you able to find useful methods to help you with this?
-- 
+- I was able to find .sort method useful in my initial solution
+- In my refactored solution, I managed to find out a way around having to create individual arrays for each officer position, but just assigning an officer to officers object, and then comparing them individually as I iterate through voteCount object.
 
 What concepts were solidified in the process of working through this challenge?
+- I was able to solidify my understanding of loops and how to use them effectively to iterate through nested objects (properties and values).
 */
 
 
