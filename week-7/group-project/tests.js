@@ -1,4 +1,26 @@
 // Add the finished solution here when you receive it.
+var sum = function(numbers) {
+  var total = 0;
+  for (var i = 0; i < numbers.length; i++) {
+    total += numbers[i];
+  }
+  return total;
+};
+
+var mean = function(numbers) {
+  var totalSum = sum(numbers);
+  return totalSum / numbers.length;
+};
+
+var median = function(numbers) {
+  numbers.sort();
+  var middle = Math.floor((numbers.length - 1)/2);
+  if (numbers.length % 2 === 0) {
+    return (numbers[middle] + numbers[middle+1]) / 2 ;
+  } else {
+    return numbers[middle];
+  }
+};
 // __________________________________________
 // Tests:  Do not alter code below this line.
 
