@@ -71,7 +71,7 @@ ON regions.id = states.region_id;
 ```
 
 ##Release 6: Outfits Schema
-![Outfits Schema](/week-8/database-intro "Ryan's Outfit Schema")
+![Outfits Schema](/week-8/database-intro/Outfits_schema.png "Ryan's Outfit Schema")
 
 
 # Release 7: Reflections
