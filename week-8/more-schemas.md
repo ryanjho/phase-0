@@ -1,12 +1,12 @@
 # 8.4 More Schemas
 
 ## Release 2: One to One Schema
-![One-to-one Schema](/phase-0/week-8/imgs/one-to-one-schema.png "One-to-one Schema")
+![One-to-one Schema](/week-8/imgs/one-to-one-schema.png "One-to-one Schema")
 - This is an example of a one-to-one schema for people and driving licenses. As not everyone might have a driving license, it makes sense to break the data into two separate entities which have a one-to-one relationship between the two tables. This will reduce the number of null values in the main persons table that is more regularly accessed.
 - Note that the primary key of person is id, which is the foreign key in the drivers_license table.
 
 ## Release 4: Grocery List
-![Many-to-many Schema](/phase-0/week-8/imgs/grocery_list.png "Many-to-many schema")
+![Many-to-many Schema](/week-8/imgs/grocery_list.png "Many-to-many schema")
 
 ## Reflections
 What is a one-to-one database?
