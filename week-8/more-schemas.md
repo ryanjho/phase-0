@@ -24,8 +24,8 @@ What is a many-to-many database?
 
 When would you use a many-to-many database? (Think generally, not in terms of the example you created).
 - You would use a many-to-many database in situations where one or more rows in a table are associated with one or more rows in another table.
-- Through additional research, I learned that in relational database design, a many-to-many relationship is not allowed. To tackle this problem, a many-to-many relationship needs to be broken into two one-to-many relationships using a join table. Each record in the join table would have the foreign key fields of the two tables it is joining together. 
-- 
+- Through additional research, I learned that in relational database design, a many-to-many relationship is not allowed.
+- To tackle this problem, a many-to-many relationship needs to be broken into two one-many relationships using a join table. Each record in the join table would have the foreign key fields of the two tables it is joining together.
 
 What is confusing about database schemas? What makes sense?
 - The material covered so far is pretty understandable. I think the challenge will come when I start designing database schemas for complicated situations/relationships, and then translate that schema into a working relational database that is aligned with design best-practices.
